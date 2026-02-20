@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect("localhost","root","0043.........");
+    $link = mysqli_connect("localhost","root","0043.........00000");
     mysqli_set_charset($link,'utf8');
     mysqli_query($link,"Use room;");
     $sql = "select * from counter;";
